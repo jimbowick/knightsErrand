@@ -9,6 +9,7 @@ html, body {
 
 .mainView {
     margin: auto;
+    position: relative;
     min-width: 500px;
     max-width: 500px;
     min-height: 400px;
@@ -29,3 +30,11 @@ html, body {
     border-width: 2px;
     border-color: black;
 }
+#equippedView { 
+    background-color: beige;
+    color: red;
+    align-self: auto;
+    position: absolute;
+    bottom: 15px;
+    left:170px;
+ }

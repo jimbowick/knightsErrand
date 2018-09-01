@@ -1,23 +1,19 @@
 <html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    </head>
     <h1 id="header"><strong>Knights Errand</strong></h1>
     <div id="main" class="mainView">
         <health-view id="healthView"></health-view>
+        <equipped-view id="equippedView"></equipped-view>
         <div id="npc"></div>
         <div id="ally1"></div>
         <div id="ally2"></div>
         <div id="player"></div>
-        <div id="rhItem"></div>
-        <div id="lhItem"></div>
         <div id="combatMenu"></div>
         <div id="npcOptions"></div>        
     </div>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <script type="text/javascript" src="HealthView.js"></script>
-    <script>
-    var healthView = document.getElementById("healthView");
-    healthView.UpdateHealthView(10);
-    </script>
+    <script type="text/javascript" src="EquippedView.js"></script>
+    <script type="text/javascript" src="Item.js"></script>
+    <script type="text/javascript" src="knightsErrand.js"></script>
 </html>
