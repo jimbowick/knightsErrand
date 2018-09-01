@@ -1,0 +1,33 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+#wrapper {
+    min-height: 100%;
+    align-content: center;
+}
+
+
+.mainView {
+    min-width: 200px;
+    min-height: 400px;
+    padding: 10px;
+    border-style: groove;
+    border-width: 2px;
+    border-color: black;
+
+}
+
+#health {
+    float: right;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 48px;
+    min-width: 25px;
+    max-width: 48px;
+    min-height: 48px;
+    border-style: groove;
+    border-width: 2px;
+    border-color: black;
+}
