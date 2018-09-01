@@ -3,18 +3,21 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <link rel="stylesheet" type="text/css" href="stylesheet.css">
     </head>
-    <h1 style="text-align:center"><strong>Knights Errand</strong></h1>
-    <div id="wrapper">
-        <div id="main" class="mainView">
-            <div id="health">Integer</div>
-            <div id="npc"></div>
-            <div id="ally1"></div>
-            <div id="ally2"></div>
-            <div id="player"></div>
-            <div id="rhItem"></div>
-            <div id="lhItem"></div>
-            <div id="combatMenu"></div>
-            <div id="npcOptions"></div>        
-        </div>
+    <h1 id="header"><strong>Knights Errand</strong></h1>
+    <div id="main" class="mainView">
+        <health-view id="healthView"></health-view>
+        <div id="npc"></div>
+        <div id="ally1"></div>
+        <div id="ally2"></div>
+        <div id="player"></div>
+        <div id="rhItem"></div>
+        <div id="lhItem"></div>
+        <div id="combatMenu"></div>
+        <div id="npcOptions"></div>        
     </div>
+    <script type="text/javascript" src="HealthView.js"></script>
+    <script>
+    var healthView = document.getElementById("healthView");
+    healthView.UpdateHealthView(10);
+    </script>
 </html>

@@ -3,15 +3,12 @@ html, body {
     margin: 0;
 }
 
-#wrapper {
-    min-height: 100%;
-    align-content: center;
+#header{
     text-align: center;
 }
 
-
 .mainView {
-    display: inline-block;
+    margin: auto;
     min-width: 500px;
     max-width: 500px;
     min-height: 400px;
@@ -19,16 +16,14 @@ html, body {
     border-style: groove;
     border-width: 2px;
     border-color: black;
-
 }
 
-#health {
+#healthView {
+    background-color: beige;
+    color: red;
     float: right;
     text-align: center;
-    vertical-align: middle;
-    line-height: 48px;
-    min-width: 25px;
-    max-width: 48px;
+    min-width: 48px;
     min-height: 48px;
     border-style: groove;
     border-width: 2px;
