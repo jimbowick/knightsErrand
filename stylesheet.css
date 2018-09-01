@@ -6,11 +6,14 @@ html, body {
 #wrapper {
     min-height: 100%;
     align-content: center;
+    text-align: center;
 }
 
 
 .mainView {
-    min-width: 200px;
+    display: inline-block;
+    min-width: 500px;
+    max-width: 500px;
     min-height: 400px;
     padding: 10px;
     border-style: groove;
